@@ -13,7 +13,7 @@ let multi = () => {
         else if (factor1 < 0) {
             ergebnis += factor1
         } 
-        else if (factor2 < 5) {
+        else if (factor2 < 0) {
             ergebnis += -factor1
         }
         else if (factor1 < 0 && factor2 < 0) {
